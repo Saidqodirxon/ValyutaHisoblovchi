@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valyuta Hisoblagich</title>
+    <link rel="stylesheet" href="./styles/css/main.css" />
+    <link rel="icon" href="https://saidqodirxon.uz/srx.png" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="forma">
+        <h2>Valyuta hisoblagich</h2>
+
+        <input type="number" id="input" />
+        <div class="selects">
+          <select name="" id="select1">
+            <option
+              value="tanla"
+              selected
+              disabled
+              style="background-color: red; color: #fff"
+            >
+              Tanlang
+            </option>
+            <option id="usd1" value="USD">USD</option>
+            <option id="eur1" value="EUR">EUR</option>
+            <option id="rub1" value="RUB">RUB</option>
+            <option id="uzs1" value="UZS">UZS</option>
+          </select>
+          <p>to</p>
+          <select name="" id="select2">
+            <option
+              value="tanla"
+              selected
+              disabled
+              style="background-color: red; color: #fff"
+            >
+              Tanlang
+            </option>
+            <option id="uzs2" class="uzs2" value="UZS">UZS</option>
+            <option id="usd2" class="usd2" value="USD">USD</option>
+            <option id="eur2" class="eur2" value="EUR">EUR</option>
+            <option id="rub2" class="rub2" value="RUB">RUB</option>
+          </select>
+        </div>
+        <button type="submit" id="btn">Hisoblash</button>
+        <h2 id="javob"></h2>
+      </form>
+    </div>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
